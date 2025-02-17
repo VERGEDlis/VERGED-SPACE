@@ -93,4 +93,13 @@
     * {
         display: none;
     }
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        background: url('755541_iawAozp_stalcraft.jpg') no-repeat center center fixed;
+        background-size: cover;
+        background-color: #00020e;
+    }
 }
