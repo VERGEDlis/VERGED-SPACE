@@ -84,3 +84,9 @@ textarea {
     background: linear-gradient(180deg, #ff66cc, #ff9900);
     box-shadow: 0 0 15px #ff66cc;
 }
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    * {
+        display: none;
+    }
+}
