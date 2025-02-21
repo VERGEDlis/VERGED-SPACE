@@ -78,13 +78,13 @@
     ::-webkit-scrollbar-thumb {
         background: linear-gradient(180deg, #ff9900, #ff66cc);
         border-radius: 10px;
-        box-shadow: 0 0 30px #ff9900;
+        box-shadow: 0 0 10px #ff9900;
         transition: background 0.3s, box-shadow 0.3s;
     }
 
     ::-webkit-scrollbar-thumb:hover {
         background: linear-gradient(180deg, #ff66cc, #ff9900);
-        box-shadow: 0 0 45px #ff66cc;
+        box-shadow: 0 0 15px #ff66cc;
     }
 }
 
