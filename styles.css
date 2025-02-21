@@ -76,6 +76,19 @@
     }
 
     ::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #ff9900, #ff66cc);
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ff9900;
+        transition: background 0.3s, box-shadow 0.3s;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, #ff66cc, #ff9900);
+        box-shadow: 0 0 15px #ff66cc;
+    }
+    
+    /*
+    ::-webkit-scrollbar-thumb {
         background: linear-gradient(180deg, #6cddff, #66de78);
         border-radius: 10px;
         box-shadow: 0 0 10px #6cddff;
@@ -86,6 +99,7 @@
         background: linear-gradient(180deg, #66de78, #6cddff);
         box-shadow: 0 0 15px #66de78;
     }
+    */
 }
 
 /* Стили для мобильных устройств */
